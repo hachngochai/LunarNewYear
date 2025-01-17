@@ -17,6 +17,12 @@
           "user-select"
         ]
       }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
     ]
   }
 }

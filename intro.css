@@ -1366,9 +1366,9 @@ body{
     position: absolute;
     width: 396px;
     height: 370px;
-    background: #fff;
+    background:  #3770bf;
     transform: rotate(-35deg) skewX(20deg) scale(0);
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(255, 255, 255);
     box-shadow: 0 0 10px rgb(0, 0, 0),
                 0 0 30px rgb(0, 0, 0, 0.5);
     transition: 1s;
@@ -1377,9 +1377,9 @@ body{
     position: absolute;
     width: 310px;
     height: 284px;
-    background: #fff;
+    background: linear-gradient(150deg, #cb473a, #fff 50%,#f2db1b);
     transform: rotate(-35deg) skewX(20deg) scale(0);
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(255, 255, 255);
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
                 0 0 20px rgb(0, 0, 0, 0.1);
 }
@@ -1387,7 +1387,7 @@ body{
     width: 250px;
     height: 250px;
     background-color: #fff;
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(255, 255, 255);
     z-index: 100;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
                 0 0 20px rgb(0, 0, 0, 0.1);
@@ -1473,14 +1473,19 @@ body{
 }
 .mail:hover > .heart{
     transform: translateY(-4px);
-    background-color: rgb(186, 35, 62);
+    background-color: rgb(255, 255, 255);
     box-shadow: -2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 .mail:hover > .heart i{
-    color: rgb(255, 41, 80);
+    color: rgb(255, 0, 0);
     transform: rotate(360deg);
     filter: drop-shadow(0px 0px 10px rgb(255, 187, 199));
+}
+
+.mail:hover > button {
+    background: #fff;
+    border: 2px solid rgb(255, 41, 80);
 }
 
 .slider3{
